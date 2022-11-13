@@ -22,6 +22,9 @@ void calculateNearMiss(int power, int limit) {
     uint64_t secondaryCalculation;
     uint64_t difference;
 
+    //NOTE: Maybe I can make a list of initial values, let the loop run, then make another list for secodary values
+    // Also let the loop run, then just compare one by one from list and find the closest values for the near miss calculation.
+    // This might require more memory tho, so try with caution.
     for (int i = 3; i < limit; i++) {
 
         //for (int j = 1; j < limit; j++) {
@@ -33,20 +36,27 @@ void calculateNearMiss(int power, int limit) {
                 //Calculate (z^n)
                 secondaryCalculation = pow(k, power);
 
-                //Calculate Difference
-                difference = secondaryCalculation - initialCalculation;
+                //Check if secondary calculation is less than initial, if less then calculate difference, else continue.
+                if (secondaryCalculation < initialCalculation) {
 
-                //Set min value for nearMiss
-                if (nearMissLowest == 0) {
-                    nearMissLowest = difference;
+                    //Calculate Difference
+                    difference = initialCalculation - secondaryCalculation;
+
+                    //Set min value for nearMiss
+                    if (nearMissLowest == 0) {
+                        nearMissLowest = difference;
+                    }
+
+                    //Check for difference
+                    if (difference < nearMissLowest) {
+                        nearMissLowest = difference;
+                        std::cout << "\nNear Miss " << i << "^" << power << "+" << i + 1 << "^" << power << "=" << k << "^" << power
+                            << " : " << nearMissLowest << "\n";
+                    }
                 }
 
-                //Check for difference
-                if (difference < nearMissLowest) {
-                    nearMissLowest = difference;
-                    std::cout << "\nNear Miss " << i << "^" << power << "+" << i+1 << "^" << power << "=" << k << "^" << power
-                        << " : " << nearMissLowest << "\n";
-                }
+
+               
                     
             }
         //}
