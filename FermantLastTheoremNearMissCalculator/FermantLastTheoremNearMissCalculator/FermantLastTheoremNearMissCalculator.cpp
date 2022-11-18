@@ -8,10 +8,8 @@
 // This program uses Pierre Fermat's "last theorem" to look for near misses 
 // Status: Still in progress
 // 
-// Current Issues: I have set up the calculateNearMiss class, currently takes in the integer value for power and the integer value
-// for the upper limit. We still need to figure out how to properly compare and find the near miss difference. When calculating
-// the difference, sometimes I get a negative value, which is to be expected based on how I set this up, so we need to figure out a 
-// way to avoid having this issue.
+// Current Issues: This version is practically finished, just needs a good fire test in order to find bugs and or a clean up if needed.
+// Please let me know.
 // 
 //
 
@@ -54,9 +52,6 @@ void calculateNearMiss(int power, int limit) {
     std::vector<CalculationValues> primaryCalculations;
     CalculationValues calculationObject;
     
-    
-
-
     //Calculate all (z^n) possibilities
     for (int k = 1; k < limit; k++) {
         secondaryCalculation = pow(k, power);
