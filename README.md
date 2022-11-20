@@ -14,7 +14,7 @@ NOTE: This program will calculate ALL possible outputs from the given power and 
  
 -To run program, open the 'Program .EXE' folder<br/>
 -Run the FermantLastTheoremNearMissCalculator.exe program<br/>
--Upon running the program, you will be greeted with the Near Miss Calculator which will ask for user input<br/>
+-Upon running the program, you will be greeted with the Near Miss Calculator which will ask for user input at the bottom of the screen<br/>
 -Please note: Constraints are as follows:<br/>
    -“N” cannot be less than 3 or greater than 12.<br/>
    -The limit cannot be greater than 100 (memory purposes)<br/>
