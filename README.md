@@ -1,7 +1,5 @@
-# CPSC-60500-Assignment-1
-# Fermant's Last Theorem Near Miss Calculator
+# Fermant's Last Theorem Near Miss Calculator - CPSC 60500 Section 5 FALL 2022
 
-CPSC 60500 Section 5 FALL 2022
 Date Submitted: 11/20/2022
 Description: This program uses Pierre Fermat's "last theorem" to look for near misses
 
@@ -10,7 +8,7 @@ Johnny Rebollar  johnnyrebollar@lewisu.edu
 
 -Please Note: This program was developed in the C++ language
 
-#HOW TO RUN PROGRAM
+# HOW TO RUN PROGRAM
 
 -To run program, open the 'Program .EXE' folder
 -Run the FermantLastTheoremNearMissCalculator.exe program
@@ -24,7 +22,7 @@ Johnny Rebollar  johnnyrebollar@lewisu.edu
 -Press any button and you should be greeted by the main screen again
 
  
-External Files: This program uses C++ libraries
+# External Files: This program uses C++ libraries
 -iostream: for standard input output objects
 -iomanip: for floating number precision
 -math.h: for power function
