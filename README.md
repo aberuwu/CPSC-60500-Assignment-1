@@ -9,6 +9,9 @@ Johnny Rebollar  johnnyrebollar@lewisu.edu<br/>
 -Please Note: This program was developed in the C++ language<br/>
 
 # HOW TO RUN PROGRAM
+NOTE: This program will calculate ALL possible outputs from the given power and limit, near miss values are then sorted by <strong>Relative Miss Ratio</strong>
+ and the lowest relative miss ratio will be printed at the bottom of the screen (#1 = lowest relative miss ratio)<br/>
+ 
 -To run program, open the 'Program .EXE' folder<br/>
 -Run the FermantLastTheoremNearMissCalculator.exe program<br/>
 -Upon running the program, you will be greeted with the Near Miss Calculator which will ask for user input<br/>
@@ -18,6 +21,8 @@ Johnny Rebollar  johnnyrebollar@lewisu.edu<br/>
 -Input value for “N” and the limit of calculations<br/>
 -The program will execute and show the smallest possible miss at the bottom of the screen thus ending the program<br/>
 -Press any button and you should be greeted by the main screen again<br/>
+
+
 
 # External Files: This program uses C++ libraries
 -iostream: for standard input output objects<br/>
