@@ -6,7 +6,11 @@ Description: This program uses Pierre Fermat's "last theorem" to look for near m
 Cesar Mendoza   cesarimendoza@lewisu.edu<br/>
 Johnny Rebollar  johnnyrebollar@lewisu.edu<br/>
 
+Files created: This program generates a FermantLastTheoremNearMissCalculator.exe program for execution<br/>
+External Resources Used: https://people.math.harvard.edu/~elkies/ferm.html<br/>
+
 -Please Note: This program was developed in the C++ language<br/>
+Source Code Location: CPSC-60500-Assignment-1/FermantLastTheoremNearMissCalculator/FermantLastTheoremNearMissCalculator/FemantLastTheoremNearMissCalculator.cpp<br/>
 
 # HOW TO RUN PROGRAM
 NOTE: This program will calculate ALL possible outputs from the given power and limit, near miss values are then sorted by <strong>Relative Miss Ratio</strong>
@@ -31,5 +35,3 @@ NOTE: This program will calculate ALL possible outputs from the given power and 
 -vector: for dynamic array<br/>
 -algorithm: for sorting method<br/>
  
-Files created: This program generates a FermantLastTheoremNearMissCalculator.exe program for execution<br/>
-External Resources Used: https://people.math.harvard.edu/~elkies/ferm.html<br/>
