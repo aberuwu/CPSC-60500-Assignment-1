@@ -12,7 +12,6 @@ Johnny Rebollar  johnnyrebollar@lewisu.edu<br/>
 
 -To run program, open the 'Program .EXE' folder<br/>
 -Run the FermantLastTheoremNearMissCalculator.exe program<br/>
--Instructions on Running the Program<br/>
 -Upon running the program, you will be greeted with the Near Miss Calculator which will ask for user input<br/>
 -Please note: Constraints are as follows:<br/>
    -“N” cannot be less than 3 or greater than 12.<br/>
